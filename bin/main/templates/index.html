@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>index</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+<body>
+<a href="/board/save">글작성</a>
+<a href="/board/">글목록</a>
+</body>
+<script>
+    function saveReq(){
+        location.href = "/board/save";   //index가 떴을 때 board/save 주소 요청
+    }
+    function listReq(){
+        location.href = "/board/";
+    }
+</script>
+</html>
